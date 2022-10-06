@@ -1,0 +1,143 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2022-10-06T01:16:51.257038+00:00",
+  "repo": "marten-seemann/draft-seemann-quic-reliable-stream-reset",
+  "labels": [
+    {
+      "name": "bug",
+      "description": "Something isn't working",
+      "color": "d73a4a"
+    },
+    {
+      "name": "documentation",
+      "description": "Improvements or additions to documentation",
+      "color": "0075ca"
+    },
+    {
+      "name": "duplicate",
+      "description": "This issue or pull request already exists",
+      "color": "cfd3d7"
+    },
+    {
+      "name": "enhancement",
+      "description": "New feature or request",
+      "color": "a2eeef"
+    },
+    {
+      "name": "good first issue",
+      "description": "Good for newcomers",
+      "color": "7057ff"
+    },
+    {
+      "name": "help wanted",
+      "description": "Extra attention is needed",
+      "color": "008672"
+    },
+    {
+      "name": "invalid",
+      "description": "This doesn't seem right",
+      "color": "e4e669"
+    },
+    {
+      "name": "question",
+      "description": "Further information is requested",
+      "color": "d876e3"
+    },
+    {
+      "name": "wontfix",
+      "description": "This will not be worked on",
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "PR_kwDOHuKM_s4-sthQ",
+      "title": "Editorial changes",
+      "url": "https://github.com/marten-seemann/draft-seemann-quic-reliable-stream-reset/pull/1",
+      "state": "MERGED",
+      "author": "hawkinsw",
+      "authorAssociation": "CONTRIBUTOR",
+      "assignees": [],
+      "labels": [],
+      "body": "Just fixing a few typos and proposing some alternate wording in places.",
+      "createdAt": "2022-09-09T18:55:34Z",
+      "updatedAt": "2022-09-10T06:23:28Z",
+      "baseRepository": "marten-seemann/draft-seemann-quic-reliable-stream-reset",
+      "baseRefName": "master",
+      "baseRefOid": "35c858e3d9545e4288f9982634ccaff59fdd219c",
+      "headRepository": "hawkinsw/draft-seemann-quic-reliable-stream-reset",
+      "headRefName": "editorial",
+      "headRefOid": "d6597d5430770141e72ebc6326c41a34cff329aa",
+      "closedAt": "2022-09-10T06:23:28Z",
+      "mergedAt": "2022-09-10T06:23:28Z",
+      "mergedBy": "marten-seemann",
+      "mergeCommit": {
+        "oid": "af90b4962bbc25603fbc8264370231c6b8af1739"
+      },
+      "comments": [
+        {
+          "author": "hawkinsw",
+          "authorAssociation": "CONTRIBUTOR",
+          "body": "@marten-seemann Thank you for a great proposal. I just saw a few things that I thought maybe I could help fix. I hope it is helpful -- please feel free to ignore if it's not useful!",
+          "createdAt": "2022-09-09T18:56:09Z",
+          "updatedAt": "2022-09-09T18:56:09Z"
+        }
+      ],
+      "reviews": [
+        {
+          "id": "PRR_kwDOHuKM_s5Bv7T6",
+          "commit": {
+            "abbreviatedOid": "20b7fb7"
+          },
+          "author": "marten-seemann",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "Thank you @hawkinsw!",
+          "createdAt": "2022-09-10T06:21:09Z",
+          "updatedAt": "2022-09-10T06:21:59Z",
+          "comments": [
+            {
+              "originalPosition": 22,
+              "body": "This was just copied from the RFC, so I'd prefer to keep it as is: https://datatracker.ietf.org/doc/html/rfc9000#section-19.4\r\n\r\n```suggestion\r\nStream ID:  A variable-length integer encoding of the stream ID of\r\n```",
+              "createdAt": "2022-09-10T06:21:09Z",
+              "updatedAt": "2022-09-10T06:21:59Z"
+            },
+            {
+              "originalPosition": 26,
+              "body": "```suggestion\r\nApplication Protocol Error Code:  A variable-length integer\r\n```",
+              "createdAt": "2022-09-10T06:21:19Z",
+              "updatedAt": "2022-09-10T06:21:59Z"
+            },
+            {
+              "originalPosition": 31,
+              "body": "```suggestion\r\nFinal Size:  A variable-length integer indicating the final size of\r\n```",
+              "createdAt": "2022-09-10T06:21:27Z",
+              "updatedAt": "2022-09-10T06:21:59Z"
+            },
+            {
+              "originalPosition": 36,
+              "body": "```suggestion\r\nReliable Size:  A variable-length integer indicating the amount of\r\n```",
+              "createdAt": "2022-09-10T06:21:37Z",
+              "updatedAt": "2022-09-10T06:21:59Z"
+            }
+          ]
+        },
+        {
+          "id": "PRR_kwDOHuKM_s5Bv7Wy",
+          "commit": {
+            "abbreviatedOid": "d6597d5"
+          },
+          "author": "marten-seemann",
+          "authorAssociation": "OWNER",
+          "state": "APPROVED",
+          "body": "",
+          "createdAt": "2022-09-10T06:22:40Z",
+          "updatedAt": "2022-09-10T06:22:40Z",
+          "comments": []
+        }
+      ]
+    }
+  ]
+}
