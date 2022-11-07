@@ -4,8 +4,8 @@
 
 QUIC                                                          M. Seemann
 Internet-Draft                                             Protocol Labs
-Intended status: Informational                         10 September 2022
-Expires: 14 March 2023
+Intended status: Informational                           7 November 2022
+Expires: 11 May 2023
 
 
                       Reliable QUIC Stream Resets
@@ -48,7 +48,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 14 March 2023.
+   This Internet-Draft will expire on 11 May 2023.
 
 Copyright Notice
 
@@ -136,7 +136,7 @@ Table of Contents
      Stream ID (i),
      Application Protocol Error Code (i),
      Final Size (i),
-     Reliable Size (i)
+     Reliable Size (i),
    }
 
    RELIABLE_RESET_STREAM frames contain the following fields:
